@@ -44,6 +44,7 @@ export default function App() {
         <span>{activeCount} task{activeCount !== 1 ? 's' : ''} left</span>
         <button onClick={clearCompleted}>Clear Completed</button>
       </div>
+      <p className="made-by">Made with React</p>
     </div>
   )
 }
